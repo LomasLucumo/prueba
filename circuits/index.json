@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "default": "demo",
+  "circuits": [
+    { "id": "demo", "name": "Circuito de ejemplo", "file": "circuits/demo.json" }
+  ]
+}

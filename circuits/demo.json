@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "demo",
+  "version": 2,
+  "name": "Circuito turístico a pie",
+  "language": "es",
+  "mode": "walking",
+  "settings": {
+    "arrivalRadiusM": 25,
+    "offRouteM": 30,
+    "minAccuracyM": 50,
+    "farEnterM": 200,
+    "farExitM": 150,
+    "followRadiusM": 250
+  },
+  "route": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        -76.880233,
+        -12.20853
+      ],
+      [
+        -76.878533,
+        -12.20823
+      ],
+      [
+        -76.877033,
+        -12.20773
+      ],
+      [
+        -76.876233,
+        -12.20623
+      ],
+      [
+        -76.876533,
+        -12.20473
+      ],
+      [
+        -76.877533,
+        -12.20373
+      ],
+      [
+        -76.879233,
+        -12.20403
+      ],
+      [
+        -76.880533,
+        -12.20503
+      ],
+      [
+        -76.881033,
+        -12.20643
+      ]
+    ]
+  },
+  "stops": [
+    {
+      "id": "a",
+      "label": "A",
+      "type": "start",
+      "name": "Inicio del circuito",
+      "description": "Texto de bienvenida o indicaciones iniciales.",
+      "coordinates": [
+        -76.880233,
+        -12.20853
+      ]
+    },
+    {
+      "id": "p1",
+      "label": "1",
+      "type": "poi",
+      "name": "Parada 1",
+      "description": "Historia o datos de interés de la primera parada.",
+      "coordinates": [
+        -76.877033,
+        -12.20773
+      ]
+    },
+    {
+      "id": "p2",
+      "label": "2",
+      "type": "poi",
+      "name": "Parada 2",
+      "description": "Historia o datos de interés de la segunda parada.",
+      "coordinates": [
+        -76.877533,
+        -12.20373
+      ]
+    },
+    {
+      "id": "b",
+      "label": "B",
+      "type": "end",
+      "name": "Fin del circuito",
+      "description": "Mensaje de cierre.",
+      "coordinates": [
+        -76.881033,
+        -12.20643
+      ]
+    }
+  ]
+}
