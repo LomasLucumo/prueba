@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "demo",
   "version": 2,
-  "name": "Circuito turístico a pie",
+  "name": "Circuito corto",
   "language": "es",
   "mode": "walking",
   "settings": {
