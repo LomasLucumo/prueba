@@ -60,7 +60,7 @@
       "label": "A",
       "type": "start",
       "name": "Inicio del circuito",
-      "description": "Texto de bienvenida o indicaciones iniciales.",
+      "description": "AAAA",
       "coordinates": [
         -76.880233,
         -12.20853
@@ -71,7 +71,7 @@
       "label": "1",
       "type": "poi",
       "name": "Parada 1",
-      "description": "Historia o datos de interés de la primera parada.",
+      "description": " ",
       "coordinates": [
         -76.877033,
         -12.20773
@@ -82,7 +82,7 @@
       "label": "2",
       "type": "poi",
       "name": "Parada 2",
-      "description": "Historia o datos de interés de la segunda parada.",
+      "description": " ",
       "coordinates": [
         -76.877533,
         -12.20373
@@ -93,7 +93,7 @@
       "label": "B",
       "type": "end",
       "name": "Fin del circuito",
-      "description": "Mensaje de cierre.",
+      "description": " ",
       "coordinates": [
         -76.881033,
         -12.20643
